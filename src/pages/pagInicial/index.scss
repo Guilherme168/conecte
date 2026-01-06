@@ -1,5 +1,29 @@
 
+.principal{
+    #secao1{
+        display: flex;
 
+        #img1{
+            position: absolute;
+            width: 35%;
+            left: 5%;
+            bottom: 0%;
+           
+        }
+        #fundo{
+            width: 45%;
+            border-bottom-right-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        #texto1{
+            padding: 5%;
+            
+            h2{
+                font: 600 2.5vw 'Inter';
+            }
+        }
+    }
+}
 
 
 

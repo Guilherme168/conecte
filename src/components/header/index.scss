@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.header{
+header{
+
+ text-align: center;
+ padding: 6vh;
+ background-color: #DCF9FD;
+
+ img{
+    width: 30%;
+ }
+
+}
+nav{
+    background-color: #AACED8;
+    padding: 2vh;
+
+    ul{
+        display: flex;
+        justify-content: space-evenly;
+    li{
+        text-decoration: none;
+        list-style: none;
+
+        button{
+            padding: 2vh;
+            font: 500 1.8vw 'Inter';
+            border: none;
+            border-radius: 5px;
+
+            Link{
+            text-decoration: none;
+            color: #003C4A;
+            }
+      
+        }
+        
+        button:hover{
+            font-size: 2vw;
+            transition: font-size 0.5s ease;
+        }
+       }
+    }
+ }
+
+ #divisor{
+    height: 2vh;
+    background-color: #C9FDFF;
+ }
+
+ @media screen and (max-width: 768px) {
+    header{
+        padding: 4vh;
+
+    nav{
+        padding: 1vh;
+    }
+    img{
+        width: 65%;
+    }    
+    }
+ }
+
+}
