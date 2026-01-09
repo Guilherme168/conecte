@@ -1,0 +1,21 @@
+#card{
+
+    padding-bottom: 33px;
+    overflow: hidden;
+    text-align: center;
+    color: black;
+
+
+ img{
+    width: 20vw;
+    object-fit: contain;
+    border-radius: 10px;
+    margin-bottom: 105px;
+ }
+
+ img:hover{
+   width: 22vw;
+   transition: width 0.8s ease;
+ }
+
+}

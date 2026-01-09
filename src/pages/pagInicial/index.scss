@@ -1,19 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 
 .principal{
+    padding: 0;
+
     #secao1{
         display: flex;
 
         #img1{
             position: absolute;
-            width: 35%;
+            width: 40%;
             left: 5%;
-            bottom: 0%;
+            bottom: -0.5%;
+            margin: 0;
            
         }
         #fundo{
             width: 45%;
             border-bottom-right-radius: 10px;
             border-top-right-radius: 10px;
+            margin: 0;
         }
         #texto1{
             padding: 5%;
@@ -23,6 +29,107 @@
             }
         }
     }
+    #separador{
+    height: 2vh;
+    padding: 0;
+    background-color: #C9FDFF;
+    }
+
+    #secao2{
+  
+        padding: 11vh;
+        text-align: start;
+
+    h1{
+       font: 700 3vw 'Inter';
+    }
+    h3{
+        font: 600 2vw 'Inter';
+    }
+
+    #servicos{
+
+      display: flex;
+      border-radius: 10px;
+      justify-content: space-around;
+
+    }
+
+    #msg{
+        margin-top: 65px;
+        background-color: #B2F1FF;
+        padding: 15px;
+        border-radius: 10px;
+
+        h4{
+            font: 600 1.5vw 'Inter';
+            margin: 0;
+        }
+    }
+
+    }
+
+    #secao3{
+    display: flex;
+    flex-direction: column;
+    background-color: #97bfca;
+    padding: 10vh;
+    gap: 55px;
+
+    h3{
+        font: 600 2.5vw 'Inter';
+        margin: 0;
+    }
+
+    #redirecionador{
+        display: flex;
+        border-radius: 10px;
+        background-color: #B2F1FF;
+        justify-content: space-between;
+        align-items: center;
+
+        img{
+            margin: 0;
+            padding: 0;
+            width: 20vw;
+            border-radius: 10px;
+        }
+    }
+
+    }
+
+    footer{
+    h2{
+        font: 700 1.5vw 'Inter';
+        color: #fff;
+    }
+
+    }
+
+ 
+ @media screen and (max-width: 768px) {
+    
+   #secao1{
+    #img1{
+        display: none;
+    }
+    #fundo{
+        display: none;
+    }
+    #texto1{
+        text-align: center;
+    }
+   }
+   #secao2{
+
+    #servicos{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+   }
+
+ }   
 }
 
 

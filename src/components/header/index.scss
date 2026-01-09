@@ -2,13 +2,15 @@
 
 
 .header{
+    padding: 0;
 header{
 
  text-align: center;
  padding: 6vh;
  background-color: #DCF9FD;
 
- img{
+ #logo{
+    margin: 0;
     width: 30%;
  }
 
@@ -48,6 +50,7 @@ nav{
  #divisor{
     height: 2vh;
     background-color: #C9FDFF;
+    padding: 0;
  }
 
  @media screen and (max-width: 768px) {

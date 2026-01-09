@@ -7,7 +7,7 @@ function Header() {
 
       <header>
        
-     <Link to={'/'}> <img src= '/assets/images/Conecte-Logo.png' alt='Conecta Logo' about='Imagem da logo do site Conecta' /> </Link> 
+     <Link to={'/'}> <img id='logo' src= '/assets/images/Conecte-Logo.png' alt='Conecta Logo' about='Imagem da logo do site Conecta' /> </Link> 
       
       </header>
 
