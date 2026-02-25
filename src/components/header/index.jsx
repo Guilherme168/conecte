@@ -14,9 +14,9 @@ function Header() {
       <nav>
 
       <ul>
-       <li>  <button>   <Link to={'/'}> Serviços do governo </Link> </button>  </li>
-       <li>  <button>   <Link to={'/'}> Saúde </Link>  </button>   </li> 
-       <li>  <button>   <Link to={'/'}> Transporte   </Link> </button>  </li> 
+       <li>  <button>   <Link to={'https://www.gov.br/pt-br/servicos'}> Serviços do governo </Link> </button>  </li>
+       <li>  <button>   <Link to={'https://meususdigital.saude.gov.br/login'}> Saúde </Link>  </button>   </li> 
+       <li>  <button>   <Link to={'https://www.sptrans.com.br/'}> Transporte   </Link> </button>  </li> 
       </ul>
 
       </nav> 

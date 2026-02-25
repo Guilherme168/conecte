@@ -31,9 +31,9 @@ function Inicial() {
         
       <div id='servicos' style={{ backgroundColor: '#87CCDB', padding: '35px', boxShadow: '0 1px 0 0 #000' }}>
 
-       <CardComponent imgSrc = '/assets/images/card-saude.jpg' id= 'saude' title = 'Saúde'/>
-       <CardComponent imgSrc = '/assets/images/serv-gov.png' id= 'governo' title = 'Serviços governamentais'/>
-       <CardComponent imgSrc = '/assets/images/transporte.jpg' id= 'transporte' title = 'Transporte'/>
+       <CardComponent imgSrc = '/assets/images/card-saude.jpg' id= 'saude' title = 'Saúde' link= 'https://www.gov.br/saude/pt-br/sus'/>
+       <CardComponent imgSrc = '/assets/images/serv-gov.png' id= 'governo' title = 'Serviços governamentais' link= 'https://meu.inss.gov.br/#/login' />
+       <CardComponent imgSrc = '/assets/images/card-transporte.jpg' id= 'transporte' title = 'Transporte' link= 'https://www.sptrans.com.br/' />
 
       </div>
 
@@ -54,7 +54,7 @@ function Inicial() {
 
       <div id='redirecionador'>
 
-      <Link to={'/'}> <h3 style={{ font: '700 2vw Inter', color: '#2A5B7E', marginLeft: '10vw' }}> Acesse o Navegador clicando aqui! </h3> </Link> 
+      <Link to={'/navegadorConecte'}> <h3 style={{ font: '700 2vw Inter', color: '#2A5B7E', marginLeft: '10vw' }}> Acesse o Navegador clicando aqui! </h3> </Link> 
       <img src='/assets/images/img-redirecionamento.jpg' alt='imagem redirecionamento' about='um senhor feliz utilizando seu celular'/>
 
       </div>
@@ -62,9 +62,9 @@ function Inicial() {
       </section>
 
       <footer style={{ display: 'flex', justifyContent: 'space-around', backgroundColor: '#444444', padding: '30px'}}> 
-        <Link to={'/'}> <h2> Teste nosso Navegador </h2>  </Link>
-        <Link to={'/'}> <h2> Serviços </h2>  </Link>
-        <Link to={'/'}> <h2> Voltar ao início </h2>  </Link>
+        <Link to={'/navegadorConecte'}> <h2> Teste nosso Navegador </h2>  </Link>
+        <a href='#servicos'> <h2> Serviços </h2>  </a>
+        <a href='#secao1'> <h2> Voltar ao início </h2> </a>
       </footer>
 
     </div>

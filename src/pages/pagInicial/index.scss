@@ -94,6 +94,9 @@
             width: 20vw;
             border-radius: 10px;
         }
+        a{
+            text-decoration: none;
+        }
     }
 
     }
@@ -103,6 +106,13 @@
         font: 700 1.5vw 'Inter';
         color: #fff;
     }
+    a{
+        text-decoration: none;
+    }
+    h2:hover{
+        color: #97bfca;
+        transition: color 0.5s;
+    }
 
     }
 
@@ -110,6 +120,7 @@
  @media screen and (max-width: 768px) {
     
    #secao1{
+    justify-content: center;
     #img1{
         display: none;
     }
@@ -121,16 +132,69 @@
     }
    }
    #secao2{
-
+    h1{
+        font-size: 2rem;
+    }
+    h3{
+        font-size: 1.6rem;
+    }
     #servicos{
         flex-direction: column;
-        gap: 30px;
+        gap: 30px;  
     }
-
+    #msg{
+         h4{
+            font: 600 1.3rem 'Inter';
+            margin: 0;
+        }
+    }
    }
 
- }   
-}
+   #secao3{
+    h1{
+        font-size: 1.8rem;
+    }
+    h3{
+        font-size: 1.4rem;
+    }
+   }
+
+   #redirecionador{
+    padding: 1.5rem;
+    img{
+        display: none;
+    }
+    h3{
+        font-size: 1.8rem;
+    }
+   }
+
+   footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+      h2{
+        font-size: 1.5rem;
+    }
+   }
+ }  
+ 
+ 
+ @media screen and (max-width: 1800px){
+
+    #secao1{
+        #img1{
+            display: none;
+        }
+        #fundo{
+            display: none;
+        }
+    }
+
+ }
+    
+ }
+
 
 
 

@@ -1,12 +1,10 @@
 import './index.scss'
-import { Link } from 'react-router-dom';
-import React from 'react';
 
-const CardComponent = ({ imgSrc, title}) => {
+const CardComponent = ({ imgSrc, title, link}) => {
 
 return(
 
-    <Link to={{Link}}>   <div id='card' style={{ backgroundColor: '#ACEFFF',
+    <a href= {link}>   <div id='card' style={{ backgroundColor: '#ACEFFF',
                   borderRadius: '10px'
      }}>
 
@@ -14,9 +12,9 @@ return(
           src= {imgSrc}
           alt='conteúdo do card'/>
 
-        <p style={{ margin: 0, font: '600 1.6vw Inter', textDecoration: 'none'}}> {title} </p>
+        <p> {title} </p>
 
-    </div>  </Link> 
+    </div>  </a> 
    
       )
 }
