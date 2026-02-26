@@ -1,14 +1,17 @@
 import './index.scss';
 import { Link } from 'react-router-dom';
 
+
 function Header() {
+
+
   return (
       <div className='header'>
 
       <header>
        
      <Link to={'/'}> <img id='logo' src= '/assets/images/Conecte-Logo.png' alt='Conecta Logo' about='Imagem da logo do site Conecta' /> </Link> 
-      
+
       </header>
 
       <nav>
@@ -24,8 +27,6 @@ function Header() {
       <div id='divisor'/>
 
       </div>
-      
-    
    
   );
 }

@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 
 
 function Inicial() {
+
   return (
     <div className="principal">
       <Header/>

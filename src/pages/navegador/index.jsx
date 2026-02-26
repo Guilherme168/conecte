@@ -116,7 +116,7 @@ function Navegador() {
 
       <footer style={{ display: 'flex', justifyContent: 'space-around', backgroundColor: '#444444', padding: '30px'}}> 
         <Link to={'/'}> <h2> Página inicial </h2>  </Link>
-        <a href={'#main'}> Voltar ao início </a>
+        <a href={'#main'}> <h2> Voltar ao início </h2> </a>
       </footer>
     </main>
   );
